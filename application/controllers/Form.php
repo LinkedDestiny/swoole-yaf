@@ -26,4 +26,11 @@ class FormController extends Yaf_Controller_Abstract {
 		//4. render by Yaf, 如果这里返回FALSE, Yaf将不会调用自动视图引擎Render模板
         return FALSE;
 	}
+
+	public function FormAction() {
+		$get = HttpServer::$get;
+		$this->getView()->assign("name", $get['name']);
+		$this->display('form');
+		return FALSE;
+	}
 }
