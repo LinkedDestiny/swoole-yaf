@@ -8,3 +8,17 @@
 
 ##**发起人**
 Lancelot（李丹阳） from **LinkedDestiny**（**牵机工作室**）
+
+##**使用说明**
+打开终端
+cd swoole-yaf
+php server/server.php
+
+打开浏览器，输入http://localhost:9501
+
+
+##**swoole版本**
+swoole-1.7.7以上版本
+
+##**yaf版本**
+任意stable版本
