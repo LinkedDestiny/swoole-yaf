@@ -18,8 +18,8 @@ class HttpServer
 			array(
 				'worker_num' => 16,
 				'daemonize' => true,
-	            'max_request' => 1,
-	            'dispatch_mode' => 3
+	            'max_request' => 10000,
+	            'dispatch_mode' => 1
 			)
 		);
 
