@@ -18,7 +18,7 @@ php server/server.php
 
 
 ##**swoole版本**
-swoole-1.7.7以上版本
+swoole-1.7.8+版本
 
 ##**yaf版本**
 任意stable版本
