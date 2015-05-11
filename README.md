@@ -7,7 +7,7 @@
 
 
 ##**发起人**
-Lancelot（李丹阳） from **LinkedDestiny**（**牵机工作室**）
+Lancelot（李丹阳 ID:会敲代码的喵） from **LinkedDestiny**（**牵机工作室**）
 
 ##**使用说明**
 打开终端
