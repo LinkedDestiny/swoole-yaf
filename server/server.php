@@ -28,15 +28,23 @@ class HttpServer
 		$http->on('request', function ($request, $response) {
 			if( isset($request->server) ) {
 				HttpServer::$server = $request->server;
+			}else{
+				HttpServer::$server = [];
 			}
 			if( isset($request->header) ) {
 				HttpServer::$header = $request->header;
+			}else{
+				HttpServer::$header = [];
 			}
 			if( isset($request->get) ) {
 				HttpServer::$get = $request->get;
+			}else{
+				HttpServer::$get = [];
 			}
 			if( isset($request->post) ) {
 				HttpServer::$post = $request->post;
+			}else{
+				HttpServer::$post = [];
 			}
 
 			// TODO handle img
